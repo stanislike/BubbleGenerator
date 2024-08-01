@@ -9,4 +9,6 @@ bubble.style.width = size;
 bubble.style.top = Math.random() * 100 + 50 + "%";
 bubble.style.left = Math.random() * 100 + "%";
 
+bubble.style.setProperty("--left", Math.random() * 100 + "%");
+
 console.log(size);
